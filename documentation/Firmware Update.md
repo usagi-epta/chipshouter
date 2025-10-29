@@ -32,6 +32,7 @@ Fix temperature sensor lockup when read during glitching. Should make trigger_sa
 
 ### 2.0.2
 Fix occasional lockup which causes device reset
+Add trigger_safe to serial console
 
 ### 2.0.1
 Change trigger_safe behaviour
