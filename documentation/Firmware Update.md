@@ -28,11 +28,12 @@ Documentation for the `update_firmware()` function can be found here: https://ch
 ## Firmware Update Releases
 
 ### 2.0.3
-Fix temperature sensor lockup when read during glitching. Should make trigger_safe unnecessary
+* Fix temperature sensor lockup when read during glitching. Should make trigger_safe unnecessary
 
 ### 2.0.2
-Fix occasional lockup which causes device reset
-Add reset reason command (NAE internal)
+* Fix occasional lockup which causes device reset
+* Add reset reason command for debugging
 
 ### 2.0.1
-Change trigger_safe behaviour
+* Change trigger_safe behaviour
+* Print number of commands in serial console
