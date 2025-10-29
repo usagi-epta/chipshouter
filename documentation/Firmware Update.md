@@ -32,7 +32,7 @@ Fix temperature sensor lockup when read during glitching. Should make trigger_sa
 
 ### 2.0.2
 Fix occasional lockup which causes device reset
-Add trigger_safe to serial console
+Add reset reason command (NAE internal)
 
 ### 2.0.1
 Change trigger_safe behaviour
